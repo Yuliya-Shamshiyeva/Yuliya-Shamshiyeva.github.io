@@ -1,4 +1,3 @@
-google.com, pub-9702271696859992, DIRECT, f08c47fec0942fa0
 yandex.com, 309694225, DIRECT
 betweendigital.com, 43554, RESELLER
 openx.com, 541177349, RESELLER, 6a698e2ec38604c6
@@ -586,3 +585,4 @@ xandr.com, 13799, RESELLER
 xandr.com, 14082, RESELLER
 yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
 zmaticoo.com, 5135655, RESELLER
+google.com, pub-9702271696859992, DIRECT, f08c47fec0942fa0
