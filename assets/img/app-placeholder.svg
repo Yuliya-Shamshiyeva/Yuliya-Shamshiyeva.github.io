@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<rect width="500" height="500" rx="72" fill="#e8e3d7"/>
+<circle cx="250" cy="215" r="118" fill="#d9a06c"/>
+<ellipse cx="250" cy="250" rx="92" ry="65" fill="#a96d43"/>
+<ellipse cx="218" cy="218" rx="12" ry="15" fill="#302720"/><ellipse cx="282" cy="218" rx="12" ry="15" fill="#302720"/>
+<ellipse cx="250" cy="248" rx="28" ry="18" fill="#e6b58b"/>
+<circle cx="250" cy="246" r="7" fill="#302720"/>
+<text x="250" y="410" font-family="Arial,sans-serif" font-size="25" text-anchor="middle" fill="#51483e">YOUR APP ICON</text>
+</svg>
