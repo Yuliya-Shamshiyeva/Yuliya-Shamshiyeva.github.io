@@ -1,131 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="Юлия — Android-разработчик и indie creator. Создаю приложения от идеи и дизайна до публикации, монетизации и продвижения.">
+  <meta property="og:title" content="Yuliya — Android & Indie Developer">
+  <meta property="og:description" content="От идеи до приложения в Google Play. Посмотрите мои проекты.">
+  <meta property="og:type" content="website">
+  <title>Yuliya — Android & Indie Developer</title>
+  <link rel="stylesheet" href="assets/styles/styles.css">
+  <link rel="icon" href="assets/img/favicon.png">
 </head>
 <body>
-    <div class="main">
-        <div class="header">
-            <a href="/"><span>EN</span></a>
-            <span>|</span>
-            <a href="/ru"><span>RU</span></a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Yuliya — главная"><span class="brand-mark">y.</span><span>apppie<span class="brand-dot">.aab</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="siteNav">
+      <a href="#apps">Приложения</a>
+      <a href="#about">Обо мне</a>
+      <a href="#process">Что я делаю</a>
+      <a href="#blog">Блог</a>
+      <a class="nav-contact" href="#contact">Связаться <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> ANDROID · INDIE · CREATIVE</div>
+        <h1>Превращаю идеи<br>в <span class="highlight">приложения.</span></h1>
+        <p class="hero-lead">Я Юлия — Android-разработчик из Алматы. Придумываю, проектирую, создаю и продвигаю собственные приложения: от первой идеи до публикации в Google Play.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#apps">Смотреть приложения <span>↘</span></a>
+          <a class="text-link" href="https://www.instagram.com/apppie.aab/" target="_blank" rel="noopener noreferrer">Я в Instagram ↗</a>
         </div>
-        <div class="content">
-            <div class="content__hello">
-                <img class="content__hello-img" src="/assets/img/avatar.png" alt="Avatar">
-                <div class="content__hello-text">
-                    <span class="content__name"><a href="/">Hi, I'm Yuliya, an Android developer</a></span>
-                    <span class="content__description"></br>This is my portfolio</span>
-                    <nav class="footer__social">
-                        <a href="https://www.instagram.com/apppie.aab/" target="_blank" class="footer__social-item"><img src="/assets/img/icons/instagram.png" alt="Instagram"></a>
-                        <a href="https://t.me/yuka2604" target="_blank" class="footer__social-item"><img src="/assets/img/icons/telegram.png" alt="Telegram"></a>
-                        <a href="mailto:apppie.aab@gmail.com" target="_blank" class="footer__social-item"><img src="/assets/img/icons/gmail.png" alt="Gmail"></a>
-                        <a href="https://github.com/Yuliya-Shamshiyeva" target="_blank" class="footer__social-item"><img src="/assets/img/icons/github.png" alt="GitHub"></a>
-                    </nav>
-                </div>
-            </div>
-
-            <div class="content__main">
-                <h2 class="content__subheader">Who I Am</h2>
-                <script src="//taplink.cc/id:11320683/widget/" async></script>
-                <div class="content__main-item"><div class="main-item__description"><p>I am an Android developer from Almaty. I graduated from the Mechanics and Mathematics Faculty of Al-Farabi Kazakh National University. I have worked as an analyst-developer in several companies, a graphic designer, and a 3D modeler. Now I apply all my skills in developing mobile applications for Android.</p></div></div>
-
-                <h2 class="content__subheader">What I Do</h2>
-                <div class="content__main-item"><div class="main-item__description"><p>I develop mobile applications and games in Kotlin, Java, and C++</br>I create unique app designs (UI/UX) following Android standards and recommendations</br>A bit of a blogger — I promote my apps</p></div></div>
-
-                <h2 class="content__subheader">Top-5 Projects</h2>
-
-                <!-- ======= PROJECTS ======= -->
-                <!-- Capybara -->
-                <div class="content__main-item project">
-                    <a data-fslightbox href="/assets/img/placeholder.png">
-                        <img src="/assets/img/placeholder.png" alt="breath_placeholder">
-                    </a>
-                    <div>
-                        <div class="main-item__title"><span>My Screen Capybara</span></div>
-                        <div class="main-item__description"><p>My favorite app. At the moment, it has no analogues in the stores. It's literally a capybara that lives on your smartphone screen and walks around from corner to corner. You can move it around the screen and change its clothes using skins inside the app. This little thing definitely brings joy to capybara lovers! And the stats say the same — more than 100k downloads on Google Play with a 4.8 rating!</p></div>
-                        <div class="main-item__subdescription">
-                            <p>Technologies: Kotlin, JSON, Firebase, CorelDraw, and many other things kept in strict secret :)</p>
-                            <p class="main-item__links"><a href="https://play.google.com/store/apps/details?id=space.clevercake.kapibaraapp"><span>Google Play</span></a></p>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Breathing exercises -->
-                <div class="content__main-item project">
-                    <a data-fslightbox href="/assets/img/placeholder.png">
-                        <img src="/assets/img/placeholder.png" alt="breath_placeholder">
-                    </a>
-                    <div>
-                        <div class="main-item__title"><span>VOZDUKH Breathing Exercises</span></div>
-                        <div class="main-item__description"><p>This application was my graduation project at Terricon School when I received additional training in Kotlin programming. The app helps not only to calm down and ground yourself but also supports and improves the condition of patients with COPD and other respiratory diseases. It was created specifically to help such patients. It is completely free and brings great results to users!</p></div>
-                        <div class="main-item__subdescription">
-                            <p>Technologies: Kotlin, JSON, Firebase, XML, Compose, Flow, After Effects, etc.</p>
-                            <p class="main-item__links"><a href="https://play.google.com/store/apps/details?id=space.clevercake.myapplication"><span>Google Play</span></a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Seismic Fault Map -->
-                <div class="content__main-item project">
-                    <a data-fslightbox href="/assets/img/placeholder.png">
-                        <img src="/assets/img/placeholder.png" alt="map_project_placeholder">
-                    </a>
-                    <div>
-                        <div class="main-item__title"><span>Almaty Seismic Fault Map</span></div>
-                        <div class="main-item__description"><p>The app is based on official government data. It was created after strong earthquakes in the city. It allows residents to freely view fault lines, understand risks, decide whether it’s safe to buy an apartment in certain areas, and avoid misinformation.</p></div>
-                        <div class="main-item__subdescription">
-                            <p>Technologies: Kotlin, Google Maps, Firebase</p>
-                            <p class="main-item__links"><a href="https://play.google.com/store/apps/details?id=space.clevercake.almatyseismicfaultmap"><span>Google Play</span></a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Christmas app -->
-                <div class="content__main-item project">
-                    <a data-fslightbox href="/assets/img/placeholder.png">
-                        <img src="/assets/img/placeholder.png" alt="breath_placeholder">
-                    </a>
-                    <div>
-                        <div class="main-item__title"><span>Christmas Countdown 2026</span></div>
-                        <div class="main-item__description"><p>App description (placeholder). Add text.</p></div>
-                        <div class="main-item__subdescription">
-                            <p>Technologies: Kotlin, Canva, Firebase, Room</p>
-                            <p class="main-item__links"><a href="https://play.google.com/store/apps/details?id=space.clevercake.holidayplannercountdowntochristmas"><span>Google Play</span></a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- BlowAway -->
-                <div class="content__main-item project">
-                    <a data-fslightbox href="/assets/img/placeholder.png">
-                        <img src="/assets/img/placeholder.png" alt="breath_placeholder">
-                    </a>
-                    <div>
-                        <div class="main-item__title"><span>BlowAway</span></div>
-                        <div class="main-item__description"><p>App description (placeholder). Add text.</p></div>
-                        <div class="main-item__subdescription">
-                            <p>Technologies: Kotlin</p>
-                            <p class="main-item__links"><a href="https://play.google.com/store/apps/details?id=space.apppie.aab.blowaway"><span>Google Play</span></a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 class="content__subheader">More of my projects here...</h2>
-                <p class="main-item__links"><a href="https://play.google.com/store/apps/developer?id=yu.lexa"><span>CLICK HERE</span></a></p>
-
-                <div class="content__main-item"><div class="main-item__description"><p>There should be a video here where I scratch a capybara</p></div></div>
-
-                <div class="content__main-item"><div class="main-item__description"><p>If you have business proposals, feel free to message me in any messenger — let's create something cool together. You can also find all links via the glowing green button on the website. Love to everyone!</p></div></div>
-
-            </div>
+        <div class="hero-facts">
+          <div><strong>15+</strong><span>приложений и проектов</span></div>
+          <div><strong>01 → 05</strong><span>от идеи до продвижения</span></div>
         </div>
+      </div>
+      <div class="hero-art" aria-label="Иллюстрация главного приложения">
+        <div class="hero-sticker sticker-top">made with curiosity ✳</div>
+        <div class="phone-mockup">
+          <div class="phone-island"></div>
+          <div class="phone-screen">
+            <div class="phone-topline"><span>my little buddy</span><span>•••</span></div>
+            <div class="capy-scene">
+              <div class="sun-shape"></div>
+              <div class="plant plant-one">✳</div><div class="plant plant-two">✳</div>
+              <div class="capybara-art" role="img" aria-label="Стилизованная капибара">
+                <div class="capy-ear"></div><div class="capy-body"></div><div class="capy-head"></div>
+                <div class="capy-muzzle"></div><div class="capy-eye eye-one"></div><div class="capy-eye eye-two"></div>
+                <div class="capy-nose"></div><div class="capy-leg leg-one"></div><div class="capy-leg leg-two"></div>
+              </div>
+              <span class="sparkle sparkle-one">✦</span><span class="sparkle sparkle-two">✧</span>
+            </div>
+            <div class="phone-caption"><span class="mini-pill">YOUR NEW BUDDY</span><h3>Моя Капибара</h3><p>Маленький друг всегда рядом.</p></div>
+            <div class="phone-bottom"><span>⌂</span><span>♡</span><span>✿</span><span>☻</span></div>
+          </div>
+        </div>
+        <div class="hero-sticker sticker-bottom"><span class="sticker-star">✳</span> Your screen, your buddy</div>
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      </div>
+      <a class="scroll-cue" href="#featured"><span></span> ЛИСТАЙТЕ НИЖЕ</a>
+    </section>
 
-        <div class="footer"><div><span>©apppie.aab</span></div></div>
-    </div>
+    <section class="featured-section section-wrap" id="featured">
+      <div class="section-heading">
+        <div><p class="eyebrow">FEATURED PROJECT</p><h2>Маленькая капибара.<br><span class="muted">Большая любовь.</span></h2></div>
+        <span class="project-number">01 / FEATURED</span>
+      </div>
+      <div class="featured-card">
+        <div class="featured-visual">
+          <div class="featured-bubble bubble-one">so cute!</div>
+          <div class="featured-bubble bubble-two">✦ skins</div>
+          <div class="featured-capy">
+            <div class="fc-ear"></div><div class="fc-body"></div><div class="fc-head"></div><div class="fc-muzzle"></div>
+            <div class="fc-eye"></div><div class="fc-eye fc-eye-two"></div><div class="fc-nose"></div><div class="fc-leg"></div><div class="fc-leg fc-leg-two"></div>
+          </div>
+          <div class="featured-grass"></div>
+          <span class="visual-label">MY SCREEN CAPYBARA</span>
+        </div>
+        <div class="featured-info">
+          <div class="app-tags"><span>ANDROID APP</span><span>VIRTUAL PET</span></div>
+          <h3>Моя Капибара</h3>
+          <p>Милая виртуальная капибара ходит прямо по экрану телефона! Перемещай её, выбирай скины и добавь немного уюта в повседневные дела.</p>
+          <ul class="feature-list">
+            <li><span>✳</span> Питомец поверх других приложений</li>
+            <li><span>✳</span> Разные образы и скины</li>
+            <li><span>✳</span> Маленький источник хорошего настроения</li>
+          </ul>
+          <div class="featured-actions">
+            <a class="button button-dark" href="https://play.google.com/store/apps/details?id=space.clevercake.kapibaraapp" target="_blank" rel="noopener noreferrer">Скачать в Google Play <span>↗</span></a>
+            <a class="text-link" href="app.html?id=space.clevercake.kapibaraapp">Подробнее о приложении →</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="/assets/scripts/fslightbox.js"></script>
+    <section class="apps-section section-wrap" id="apps">
+      <div class="section-heading apps-heading">
+        <div><p class="eyebrow">THE APP COLLECTION</p><h2>Другие мои <span class="highlight">проекты.</span></h2><p class="section-intro">От милых виртуальных питомцев до фанатских квизов и полезных инструментов. Каждый проект — новая идея, которую я довела до релиза.</p></div>
+        <div class="apps-count"><strong id="appsCount">15</strong><span>проектов<br>в каталоге</span></div>
+      </div>
+      <div class="catalog-controls">
+        <label class="search-box"><span>⌕</span><input type="search" id="appSearch" placeholder="Найти приложение..." aria-label="Найти приложение"></label>
+        <div class="filter-list" id="appFilters" aria-label="Фильтры приложений">
+          <button class="filter-chip active" data-filter="all">Все проекты</button>
+          <button class="filter-chip" data-filter="pet">Питомцы и игры</button>
+          <button class="filter-chip" data-filter="quiz">Квизы и тесты</button>
+          <button class="filter-chip" data-filter="seasonal">Сезонные</button>
+          <button class="filter-chip" data-filter="tools">Полезные</button>
+        </div>
+      </div>
+      <div class="app-grid" id="appGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden>Ничего не найдено. Попробуйте другой запрос.</div>
+      <div class="catalog-bottom"><span>БОЛЬШЕ ИДЕЙ — БОЛЬШЕ ПРОЕКТОВ</span><a href="https://play.google.com/store/apps/developer?id=yu.lexa" target="_blank" rel="noopener noreferrer" class="text-link">Все приложения в Google Play ↗</a></div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-image">
+        <div class="about-portrait-placeholder"><span class="portrait-sun"></span><span class="portrait-letter">Y.</span><span class="portrait-caption">ALMATY, KZ · 2026</span></div>
+        <div class="about-note">curious by nature<br>developer by choice <span>✳</span></div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Привет, я <span class="highlight">Юля.</span></h2>
+        <p class="about-lead">Разработчик, дизайнер и человек, которому постоянно хочется попробовать ещё одну идею.</p>
+        <p>Я из Алматы, окончила механико-математический факультет КазНУ и пришла в Android-разработку через разные творческие и технические задачи. Сейчас создаю собственные приложения: сама продумываю концепцию, делаю интерфейсы, пишу код, готовлю публикацию и разбираюсь, как находить пользователей.</p>
+        <p>Мне нравится не только момент, когда приложение наконец работает, но и весь путь до этого: придумать необычную механику, подобрать визуальный стиль, сделать рекламный креатив и посмотреть, как люди реагируют на продукт.</p>
+        <div class="about-tags"><span>Android development</span><span>UI/UX & graphics</span><span>Indie products</span><span>App marketing</span></div>
+        <a class="text-link" href="https://github.com/Yuliya-Shamshiyeva" target="_blank" rel="noopener noreferrer">Заглянуть в мой GitHub ↗</a>
+      </div>
+    </section>
+
+    <section class="process-section" id="process">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">FROM IDEA TO LAUNCH</p><h2>Делаю не только <span class="highlight">код.</span></h2></div>
+          <p class="process-intro">Мне интересно видеть весь продукт целиком — от первой заметки в списке идей до рекламы, которая приводит нового пользователя.</p>
+        </div>
+        <div class="process-grid">
+          <article class="process-card"><span class="process-index">01</span><div class="process-icon">✳</div><h3>Идея и концепция</h3><p>Ищу интересную задачу, придумываю механику и превращаю разрозненные мысли в понятный продукт.</p><span class="process-caption">IDEATION</span></article>
+          <article class="process-card"><span class="process-index">02</span><div class="process-icon">◫</div><h3>Дизайн и визуал</h3><p>Продумываю UI/UX, иконки, графику, скриншоты магазина и рекламные материалы.</p><span class="process-caption">DESIGN</span></article>
+          <article class="process-card"><span class="process-index">03</span><div class="process-icon">{ }</div><h3>Разработка</h3><p>Создаю Android-приложения на Kotlin и Java, работаю с Firebase и изучаю игровые инструменты, включая Unity.</p><span class="process-caption">DEVELOPMENT</span></article>
+          <article class="process-card"><span class="process-index">04</span><div class="process-icon">↗</div><h3>Релиз и рост</h3><p>Публикую приложения, настраиваю монетизацию и аналитику, работаю с ASO, рекламой и продвижением.</p><span class="process-caption">LAUNCH & GROWTH</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog-section section-wrap" id="blog">
+      <div class="blog-card">
+        <div class="blog-copy"><p class="eyebrow">BEHIND THE APPS</p><h2>Код, идеи и жизнь<br><span class="highlight">между релизами.</span></h2><p>В Instagram показываю не только готовые приложения, но и процесс: что придумываю, что не получается, как делаю дизайн, создаю рекламу и совмещаю разработку с обычной жизнью.</p><a class="button button-dark" href="https://www.instagram.com/apppie.aab/" target="_blank" rel="noopener noreferrer">Читать мой блог <span>↗</span></a></div>
+        <div class="blog-art"><div class="social-post post-back"><span>IDEA → APP</span><div class="post-scribble">make<br>it real<span>✳</span></div></div><div class="social-post post-front"><span>DEV DIARY / 001</span><div class="post-big">building<br>things<br><em>I love.</em></div><div class="post-footer">@apppie.aab <span>↗</span></div></div><div class="blog-sparkle">✳</div></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <p class="eyebrow">HAVE AN IDEA?</p>
+      <h2>Давай создадим<br><span class="highlight">что-нибудь классное.</span></h2>
+      <p>Открыта к интересным проектам, сотрудничеству и новым знакомствам.</p>
+      <div class="contact-actions">
+        <a class="button button-dark" href="mailto:apppie.aab@gmail.com">Написать мне <span>↗</span></a>
+        <a class="social-button" href="https://www.instagram.com/apppie.aab/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        <a class="social-button" href="https://github.com/Yuliya-Shamshiyeva" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a class="social-button" href="https://t.me/yuka2604" target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand" href="#"><span class="brand-mark">y.</span><span>apppie<span class="brand-dot">.aab</span></span></a><span>Designed & built by Yuliya · © <span id="year"></span></span><a href="#top" class="back-top">НАВЕРХ ↑</a></footer>
+  <script src="assets/scripts/apps.js"></script>
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const siteNav = document.getElementById('siteNav');
+    menuToggle.addEventListener('click', () => {
+      const open = siteNav.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', String(open));
+    });
+    siteNav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      siteNav.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
